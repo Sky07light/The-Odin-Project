@@ -162,6 +162,7 @@ body{
 
 .main{
     display: flex;
+    background-color: #E2E8F0;
 }
 
 .center> p{
@@ -173,11 +174,14 @@ body{
 }
 .boxes{
     display: grid;
-    grid-template-columns: 30vw 30vw;
+    grid-template-columns: 24vw 24vw;
     grid-template-rows: 23vh 23vh 23vh;
     margin-top: 2.5vh;
-    align-content: center;
+    margin-left: 2.5vw;
+    /* align-content: center; */
     justify-items: center;
+    margin-right: 2.5vw;
+    
 }
 
 .box{
@@ -185,4 +189,36 @@ body{
     border-radius: 10px;
     width: 23vw;
     height: 20vh;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.text :first-child{
+    padding-top: 30px;
+    
+}
+
+.text{
+    display: grid;
+    justify-items: center;
+}
+
+.line{
+    border: 2px solid #F0B429;
+    height: 100%;
+    width: 20px;
+    background-color: #F0B429;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text{
+    padding: 0px 20px;
+}
+
+.icon{
+    position: relative;
+    left: 120px;
 }
