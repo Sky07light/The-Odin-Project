@@ -163,6 +163,7 @@ body{
 .main{
     display: flex;
     background-color: #E2E8F0;
+    height: 78vh;
 }
 
 .center> p{
@@ -185,12 +186,14 @@ body{
 }
 
 .box{
-    border: 2px solid black;
+    border: 0px solid white;
     border-radius: 10px;
     width: 23vw;
     height: 20vh;
     display: flex;
     background-color: #FFFFFF;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .text :first-child{
